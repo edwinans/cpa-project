@@ -6,6 +6,8 @@
               as the first entry and export the buildfile again. --><project basedir="." default="build" name="cpa">
     <property environment="env"/>
     <property name="lj" value="com-lj.ungraph.txt"/>
+    <property name="amazon" value="com-amazon.ungraph.txt"/>
+    <property name="orkut" value="orkut.txt"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="15"/>
     <property name="source" value="15"/>
@@ -241,7 +243,7 @@
     <target name="TriangleFinder">
         <java classname="tme1.TriangleFinder" failonerror="true" fork="yes">
             <jvmarg line="-Xmx4000m"/>
-            <arg line="${lj}"/>
+            <arg line="${amazon}"/>
             <classpath refid="run.TriangleFinder.classpath"/>
         </java>
     </target>
