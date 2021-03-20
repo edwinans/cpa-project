@@ -11,7 +11,7 @@
 
 ### Installation
 #### Linux (deb/ubuntu)
-`sudo apt install ant` \
+`sudo apt install ant` 
 
 
 #### Windows (7/8/10)
