@@ -1,0 +1,100 @@
+460 x 100000 edges
+Searching...
+Configure restart vector for PR using CountMap...
+Getting Related Categories ID by subjects...
+Getting CountMap of Page IDs by category IDs...
+Getting titles...
+TOTA_COUNT = 14810
+Getting titles...
+TOP 10: 
+max 1 : Chess
+max 2 : Grandmaster (chess)
+max 3 : Boxing
+max 4 : United States
+max 5 : Fédération Internationale des Échecs
+max 6 : Chess variant
+max 7 : Chess Olympiad
+max 8 : Chess problem
+max 9 : Chess boxing
+max 10 : World Chess Championship
+-------------------------------------
+Getting titles...
+BOTTOM 10: 
+min 1 : Pioneer High School
+min 2 : Umeå IK
+min 3 : Guadalupe River (California)
+min 4 : Brian Ashton (rugby player)
+min 5 : Grammy Award for Best Latin Rock/Alternative Album
+min 6 : Brampton Thunder
+min 7 : Pump Up the Volume (song)
+min 8 : Sigurd Evensmo
+min 9 : Ethel Snowden
+min 10 : St Edward&apos;s School (Oxford)
+
+____________________________________________________________
+
+Searching...
+Getting page IDs by category IDs...
+Getting titles...
+TOP 10: 
+max 1 : Boxing
+max 2 : Miscellaneous of Boxing
+max 3 : Chess
+max 4 : Amateur boxing
+max 5 : List of Quadruple Champions of Boxing
+max 6 : List of Triple Champions of Boxing
+max 7 : List of Quintuple Champions of Boxing
+max 8 : List of Boxing world champions from Puerto Rico
+max 9 : United States
+max 10 : London Prize Ring rules
+-------------------------------------
+Getting titles...
+BOTTOM 10: 
+min 1 : Saint Modoald
+min 2 : Fred Lipsius
+min 3 : Todor Kolev
+min 4 : Gregory W. Meeks
+min 5 : Autoregressive moving average model
+min 6 : Joseph Facal
+min 7 : Tangipahoa Parish, Louisiana
+min 8 : Ian McKenzie Anderson
+min 9 : Ritz
+min 10 : Laurence Tribe
+
+_______________________________________________________
+
+Loading graph...
+progress : [############################################################################################################################################################################################################################################################################################################################################################################################################################################################################] ~ 460 x 100000 edges
+Searching...
+Getting Related Categories ID by subjects...
+Getting CountMap of Page IDs by category IDs...
+TOTA_COUNT = 5673
+Getting titles...
+TOP 10: 
+max 1 : Chess
+max 2 : Grandmaster (chess)
+max 3 : Fédération Internationale des Échecs
+max 4 : Chess Olympiad
+max 5 : United States
+max 6 : Boxing
+max 7 : International Master
+max 8 : Elo rating system
+max 9 : World Chess Championship
+max 10 : Chess opening
+-------------------------------------
+Getting titles...
+BOTTOM 10: 
+min 1 : Villeray–Saint-Michel–Parc-Extension
+min 2 : Jessica Cutler
+min 3 : Electrical connection
+min 4 : Bass player
+min 5 : Caribou-Targhee National Forest
+min 6 : Above the Rim
+min 7 : Charlesbourg, Quebec
+min 8 : Gaius Calpurnius Piso
+min 9 : Lisa Opie
+min 10 : Persistence
+
+
+________________________________
+

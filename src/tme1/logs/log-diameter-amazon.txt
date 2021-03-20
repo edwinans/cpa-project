@@ -1,0 +1,9 @@
+Calculation graph diameter
+Loading graph...
+progress : [#########] ~ 9 x 100000 edges
+Lower-Bound:47
+Getting Diameter Lower-Bound time : 2330ms
+Upper-Bound:57
+Getting Diameter Upper-Bound executing Lower-Bound before time : 296ms
+
+______________________________________________________________________

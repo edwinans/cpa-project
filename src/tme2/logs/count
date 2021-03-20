@@ -1,0 +1,4 @@
+java Counter ../tme2/benchmarks/wiki-links.txt 
+number of vertices : 2070486
+number of edges : 46092177 
+

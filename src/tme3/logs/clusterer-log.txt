@@ -1,0 +1,14 @@
+NB of Nodes : 400, NB of Edges : 1314, NB of Actual communities : 4
+Connection Probability of (same)/(not same) community nodes : (0.06000)/(0.00200) = (29)
+Running EdgeBetweennessClusterer...
+...NB of communities found using Girvan–Newman algorithm
+(*removing 60 edges) : 2
+
+___________________________________________________________________________________________
+NB of Nodes : 100, NB of Edges : 140, NB of Actual communities : 4
+Connection Probability of (same)/(not same) community nodes : (0.10000)/(0.01000) = (10)
+Running EdgeBetweennessClusterer...
+...NB of communities found using Girvan–Newman algorithm
+(*removing 10 edges) : 4
+
+___________________________________________________________________________________________
