@@ -14,7 +14,7 @@ import graph.GraphList.Edge;
  * edges to remove, m is the total number of edges, and n is the total number of
  * vertices. For very sparse graphs the running time is closer to O(kn^2) and
  * for graphs with strong community structure, the complexity is even lower.
- * Girvan–Newman algorithm
+ * Girvanï¿½Newman algorithm
  * 
  *
  */
@@ -56,7 +56,7 @@ public class Clustering {
 		System.out.println("Running EdgeBetweennessClusterer...");
 		Set<Set<Integer>> set = ebc.transform(graph);
 		
-		System.out.printf("...NB of communities found using Girvan–Newman algorithm\n(" + "*removing %d edges) : %d\n", K,
+		System.out.printf("...NB of communities found using Girvan-Newman algorithm\n(" + "*removing %d edges) : %d\n", K,
 				set.size());
 	}
 }

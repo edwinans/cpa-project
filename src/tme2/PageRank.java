@@ -43,6 +43,7 @@ public class PageRank {
 
 		String defaultPath = pathRoot + "test1.txt";
 
+		//set path of links file : {wiki-links}
 		final String linksFile = args.length > 0 ? pathRoot + args[0] : defaultPath;
 		final String pageIDCatsFile = pathRoot + "id-category_ids.txt";
 		final String idCatFile = pathRoot + "category_ids-name.txt";
@@ -60,11 +61,26 @@ public class PageRank {
 		System.out.println("Searching...");
 		int iter = 5;
 		float[] p;
-		// p = pageRank.powerIteration(iter);
-		// p = pageRank.rootedPageRank(iter, magnusID);
-		// pageRank.ranks(p, 10, pageNamesFile);
+		
+		/* for testing; comment and un-comment following 4 PageRank instances : */
+		
+//		//I
+//		p = pageRank.powerIteration(iter);
+//		pageRank.ranks(p, 10, pageNamesFile);
 
-		//
+//		//II
+//		p = pageRank.rootedPageRank(iter, magnusID);
+//		pageRank.ranks(p, 10, pageNamesFile);
+
+//		//III
+//		// first version check only if the page contains any catIds
+//		p = pageRank.configPageRank(catIds, iter, idCatFile);
+
+		//IV
+		p = pageRank.configCountPageRank(subjects, iter, idCatFile, pageIDCatsFile);
+		pageRank.ranks(p, 10, pageNamesFile);
+
+		//Plotting
 		// try {
 		// pageRank.collectRankingPlotData(p);
 		// pageRank.collectDegreePlotData(degIn, degOut);
@@ -73,11 +89,6 @@ public class PageRank {
 		// e.printStackTrace();
 		// }
 
-		// first version check only if the page contains any catIds
-		// // p = pageRank.configPageRank(catIds, iter, idCatFile);
-
-		p = pageRank.configCountPageRank(subjects, iter, idCatFile, pageIDCatsFile);
-		pageRank.ranks(p, 10, pageNamesFile);
 	}
 
 	public float[] configPageRank(LinkedList<Integer> catIds, int t, String fileName) {

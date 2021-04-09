@@ -2,8 +2,8 @@
 *.class
 
 # ignore benchmakrs because of large size
-**/benchmarks/
-
+**/benchmarks/*
+!**/benchmarks/test*.txt
 
 # Log file
 *.log
@@ -15,7 +15,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
