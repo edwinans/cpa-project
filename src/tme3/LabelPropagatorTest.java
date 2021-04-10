@@ -1,7 +1,5 @@
 package tme3;
 
-import java.io.IOException;
-
 import graph.GraphArray;
 import graph.GraphLoader;
 
