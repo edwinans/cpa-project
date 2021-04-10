@@ -1,0 +1,8 @@
+Loading graph...
+progress : [#########] ~ 9 x 100000 edges
+Calculating core value of the graph...
+...execution time: 396ms
+core value: 6
+degree density: 3.375695
+edge density: 0.014188
+densest prefix size : 497
