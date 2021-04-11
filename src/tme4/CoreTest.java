@@ -1,16 +1,28 @@
 package tme4;
 
+
 import graph.GraphArray;
 import graph.GraphLoader;
 
 public class CoreTest {
 
 	public static void testCDA(GraphArray graph) {
+
 		Core core = new Core(graph);
 		int[] deg = new int[graph.getV()];
+		long t1, t2;
 		System.out.println("Calculating core value of the graph...");
-		int cv = core.coreDecomposition(deg);
-		System.out.printf("...Core value: %d\n", cv);
+		t1 = System.currentTimeMillis();
+		int cv = core.coreDecomposition();
+		t2 = System.currentTimeMillis();
+
+		System.out.printf("...execution time: %dms\n", t2 - t1);
+
+		int sz = core.getDensestSubGraphSize();
+		System.out.printf("core value: %d\n", cv);
+		System.out.printf("degree density: %f\n", core.getDegDensity(true));
+		System.out.printf("edge density: %f\n", core.getEdgeDensity(true));
+		System.out.printf("densest prefix size : %d\n", sz);
 	}
 
 	public static void main(String[] args) {

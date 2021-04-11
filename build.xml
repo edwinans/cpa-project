@@ -6,8 +6,9 @@
               as the first entry and export the buildfile again. --><project basedir="." default="build" name="cpa-project">
     <property environment="env"/>
     <property name="ECLIPSE_HOME" value="../../eclipse/jee-2021-03/eclipse/"/>
+    <property name="amazon" value="com-amazon.ungraph.txt"/>
     <property name="lj" value="com-lj.ungraph.txt"/>
-    <property name="orkut" value="com-lj.ungraph.txt"/>
+    <property name="orkut" value="com-orkut.ungraph.txt"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="15"/>
     <property name="source" value="15"/>
@@ -308,8 +309,8 @@
     </target>
     <target name="CoreTest">
         <java classname="tme4.CoreTest" failonerror="true" fork="yes">
-            <jvmarg line="-Xmx4800m"/>
-            <arg line="${lj}"/>
+            <jvmarg line="-Xmx5500m"/>
+            <arg line="${orkut}"/>
             <classpath refid="run.CoreTest.classpath"/>
         </java>
     </target>
